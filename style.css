@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif; 
+    background-color: aqua;
+    color: aquamarine;
+}
+
+h1 {
+    color:black
+}
+
+a {
+    color:azure;
+    text-decoration: none;
+}
+
+a:hover {
+    color: antiquewhite;
+}
+
+ul > li {
+    font-weight: bold;
+}
+
+h1 + p {
+    background-color: blanchedalmond;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+ul li:hover {
+    color:antiquewhite;
+}
+
+ul li:nth-child(3) {
+    background-color: aliceblue;
+}
+
+p:not(:first-of-type) {
+    text-decoration: underline;
+}
+
+ul li::before {
+    content: "🚀";
+}
+
+a::after {
+    content: "🌌";
+}
+
+p::first-letter {
+    font-size: 200%;
+    color: azure;
+}
